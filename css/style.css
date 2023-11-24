@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap);
+
+body {
+	font-family: Roboto, sans-serif;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+[class*=__container] {
+	max-width: 1020px;
+	margin: 0 auto;
+	box-sizing: content-box;
+	padding: 20px;
+}
+
+.header {}
+
+.header__container {}
+
+.main {
+	flex-grow: 1;
+}
+
+.main__container {
+	background-color: #F5F5F5
+}
+
+.our-promise {}
+
+.our-promise__container {}
+
+.our-promise__heading {
+	margin-bottom: 68px;
+}
+
+.heading {}
+
+.heading__title {
+	color: #5D62B5;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 2;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	background: url(../img/Overline\ Mark.svg)0 2px/19px 18px no-repeat;
+	padding-left: 32px;
+}
+
+.our-promise__heading>*:not(:last-child) {
+	margin-bottom: 33px;
+}
+
+.heading__sub-title {
+	color: #000;
+	font-size: 36px;
+	font-weight: 900;
+	line-height: 1.17;
+}
+
+.our-promise__row {}
+
+.our-promise__columns {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0px -12px;
+}
+
+.our-promise__column {
+	gap: 23px;
+	padding: 0px 12px;
+}
+
+.column {
+	display: flex;
+	flex: 1 1 33.333%;
+	min-width: 200px;
+}
+
+.column__image {
+	flex: 0 0 63px;
+}
+
+img {
+	width: 100%
+}
+
+.column__body {}
+
+.column__body>*:not(:last-child) {
+	margin-bottom: 23px;
+}
+
+.column__title {
+	color: #F2726F;
+	font-size: 19px;
+	font-weight: 900;
+	line-height: 1.37
+}
+
+.column__body>p {
+	color: #4B4B4B;
+	line-height: 1.5;
+	letter-spacing: 0.15px;
+}
+
+.footer {}
+
+.footer__container {}
